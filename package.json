@@ -1,0 +1,17 @@
+{
+  "name": "indecisionapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "babel-run": "babel src/monster-battle/monster.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

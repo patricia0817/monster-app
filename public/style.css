@@ -1,0 +1,86 @@
+#app {
+  text-align: center;
+}
+#app h1 {
+  color: red;
+}
+
+.playerContainer {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.winner {
+  color: green;
+  display: inline;
+  width: 100%;
+}
+
+.healthbar {
+  background-color: green;
+  padding: 0.5rem;
+  color: white;
+}
+
+.startControlContainer {
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.startControl {
+  padding: 0.7rem;
+  background-color: transparent;
+  border: 1px solid black;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+
+.startControl:hover {
+  padding: 1rem;
+  opacity: 1;
+}
+
+.gameControlsContainer {
+  padding: 2rem;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.gameControlsContainer button {
+  padding: 0.7rem;
+  margin: 0.2rem;
+  border: 1px solid black;
+  background-color: transparent;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+
+.gameControlsContainer button:hover {
+  opacity: 1;
+}
+.attackControl:hover {
+  background-color: red;
+}
+.gameControlsContainer button[disabled]:hover {
+  background-color: transparent;
+  opacity: 0.4;
+}
+.specialAttackControl:hover {
+  background-color: orangered;
+}
+.healControl:hover {
+  background-color: paleturquoise;
+}
+.giveupControl:hover {
+  background-color: peru;
+}
+.battleLog {
+  border: 1px solid black;
+  padding: 0.4rem;
+  margin-bottom: 0.2rem;
+}
